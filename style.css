@@ -50,9 +50,9 @@
     h4 {
       font-size: 1.3rem;
       color: #F5F5F5;
-      background-color: #383838;
       padding-left: 10px;
       border-radius: 0px;
+      margin: 0%;
 
     }
 
@@ -71,9 +71,7 @@
       line-height: 1.8;
       padding-left: 10px;
       padding-right: 10px;
-
-
-    }
+     }
 
     ul {
       font-size: 1.125rem;
@@ -120,6 +118,10 @@
       background-color: #383838;
     }
 
+    .black {
+      background-color: #272727;
+    }
+
     /* ==== IMAGE GALLERY ====*/
 
 
@@ -141,6 +143,7 @@
       width: 96%;
       margin-left: auto;
       margin-right: auto;
+      height: auto;
       
       /* background-color: #6c7a89;*/
       background-color: #444444;
@@ -150,6 +153,7 @@
     .row {
       position: relative;
       width: 100%;
+      height: auto;
 
     }
 
@@ -158,6 +162,7 @@
       float: left;
       margin: 0.0rem 2%;
       min-height: 0.rem;
+      height: auto;
     }
 
     .col-1,
@@ -173,6 +178,7 @@
     .col-11,
     .col-12 {
       width: 96%;
+      height: auto;
     }
 
     .col-1-sm {
